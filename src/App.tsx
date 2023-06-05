@@ -1,9 +1,10 @@
+import Academy from "./pages/academy/Academy"
 
 function App() {
 
   return (
     <div className="App">
-      <h1>Hello world</h1>
+      <Academy/>
     </div>
   )
 }

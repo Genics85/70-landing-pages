@@ -13,11 +13,8 @@ export default {
     },
     extend: {
       colors:{
-        primary:"#457b9d",
-        cardGrey:"#dae4ea",
-        darkPrimary:"#213c4c",
-        textColor:"#323232",
-        secondaryHover:"#012033"
+        academyBg:"#eaf3ff",
+        academyPrimary:"#4a90e2",
       }
     },
   },
