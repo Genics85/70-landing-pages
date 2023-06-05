@@ -1,3 +1,3 @@
-# Genics85.github.io
-# This is my portfolio
-## https://portfolio-rosy-xi-30.vercel.app/
+# Genics85
+# This is a personal challenge to build 70 landing pages
+## 
