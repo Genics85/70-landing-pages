@@ -1,3 +1,4 @@
+import Categories from './Categories'
 import Navigation from './Navigation'
 import Welcome from './Welcome'
 
@@ -6,6 +7,7 @@ function Academy() {
     <>
     <Navigation/>
     <Welcome/>
+    <Categories/>
     </>
   )
 }

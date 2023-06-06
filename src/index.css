@@ -2,8 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+    padding:0;
+    margin:0;
+}
 :root{
     --academyBg:#eaf3ff;
     --primary-color: #FF0000;
     color: #323232;
+}
+.cat-gradient-bg{
+    height: 200px;
+    background-image: linear-gradient(to bottom, pink 0% , pink 50%,red 50%,red 100);
 }
