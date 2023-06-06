@@ -5,9 +5,9 @@ function Navigation() {
   const [mobileNavOpened, setMobielNavOpened] = useState(false);
   return (
     <div>
-      <nav className="w-screen relative p-3 bg-academyBg h-14 flex justify-between items-center">
+      <nav className="relative p-3 bg-academyBg h-14 flex justify-between items-center">
         <h3 className="text-3xl font-bold">ACA</h3>
-        <ul className="space-x-8 hidden md:flex">
+        <ul className="gap-x-8 hidden md:flex">
           <li>
             <a className="hover:cursor-pointer hover:text-academyPrimary">
               {" "}

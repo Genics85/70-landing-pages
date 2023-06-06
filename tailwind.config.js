@@ -15,6 +15,7 @@ export default {
       colors:{
         academyBg:"#eaf3ff",
         academyPrimary:"#4a90e2",
+        textGrey:"#a6abb2",
       }
     },
   },
