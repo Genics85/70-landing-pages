@@ -1,4 +1,5 @@
 import Categories from './Categories'
+import Explore from './Explore'
 import Navigation from './Navigation'
 import Welcome from './Welcome'
 
@@ -8,6 +9,7 @@ function Academy() {
     <Navigation/>
     <Welcome/>
     <Categories/>
+    <Explore/>
     </>
   )
 }
