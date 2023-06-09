@@ -1,9 +1,8 @@
-import React from 'react'
 import CategoryCard from './components/CategoryCard';
-import math from "../../assets/images/math.png";
-import physics from "../../assets/images/physics.png";
-import chemistry from "../../assets/images/chemistry.png";
-import informatics from "../../assets/images/informatics.png";
+import math from "../../assets/academy/images/math.png";
+import physics from "../../assets/academy/images/physics.png";
+import chemistry from "../../assets/academy/images/chemistry.png";
+import informatics from "../../assets/academy/images/informatics.png";
 
 function Categories() {
   return (

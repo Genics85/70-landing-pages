@@ -1,4 +1,4 @@
-import welcome from "../../assets/images/welcome.png";
+import welcome from "../../assets/academy/images/welcome.png";
 
 function Welcome() {
   return (
