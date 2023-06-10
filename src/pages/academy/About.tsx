@@ -50,7 +50,7 @@ function About() {
         <p className="text-textGrey text-xl">LEARN EASY</p>
         <h3 className="text-4xl font-bold">HOW WE WORK</h3>
         <div className="flex flex-col gap-y-7">
-          <div className="">
+          <div className="hover:scale-105 transition-transform duration-300">
             <div className="flex flex-col rounded-md shadow md:flex-row md:w-11/12">
               <div className="flex justify-center items-center bg-academyBg font-bold p-6 text-6xl md:w-1/3">
                 01
@@ -63,26 +63,26 @@ function About() {
               </div>
             </div>
           </div>
-          <div className="flex justify-end ">
+          <div className="flex justify-end hover:scale-105 transition-transform duration-300">
             <div className=" flex flex-col rounded-full shadow md:flex-row-reverse  md:w-11/12">
               <div className="flex justify-center items-center bg-red-100 font-bold p-6 text-6xl md:w-1/3">
                 02
               </div>
               <div className="flex flex-col p-6 gap-y-4 bg-white">
-                <p className="font-bold text-xl">Start Learning</p>
+                <p className="font-bold text-xl">Follow the plan</p>
                 <p className="text-textGrey text-xl">
                   Do t elit labore amet eu laborum sit ip
                 </p>
               </div>
             </div>
           </div>
-          <div className="">
+          <div className="hover:scale-105 transition-transform duration-300">
             <div className=" flex flex-col rounded-md shadow md:flex-row md:w-11/12">
               <div className="flex justify-center items-center bg-red-300 font-bold p-6 text-6xl md:w-1/3">
                 03
               </div>
               <div className="flex flex-col p-6 gap-y-4 bg-white">
-                <p className="font-bold text-xl">Start Learning</p>
+                <p className="font-bold text-xl">Get Successful</p>
                 <p className="text-textGrey text-xl">
                   Do t elit labore amet eu laborum sit ip
                 </p>

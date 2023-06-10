@@ -3,7 +3,7 @@ import avatar from "../../../assets/academy/images/avarta.png";
 
 function ExploreCard() {
   return (
-    <div className="flex flex-col justify-start h-content rounded-md shadow">
+    <div className="flex flex-col justify-start h-content rounded-md shadow hover:scale-105 transition-transform duration-300">
     <div className="relative" >
       <img src={explorphysics} className="w-full"  alt="" />
       <div className=" absolute flex justify-center items-center inset-0  w-20 rounded-full m-4 h-8 bg-red-200 text-1xl">Physics</div>

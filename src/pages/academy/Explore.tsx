@@ -10,7 +10,7 @@ function Explore() {
         Explore Our <br /> Courses
       </h3>
       <div className="w-full grid grid-cols-1 sm:grid-cols-2  md:grid-cols-3 lg:grid-cols-4 gap-4">
-        <div className="relative md:col-span-2 h-full min-h-  rounded-md flex  ">
+        <div className="relative md:col-span-2 h-full min-h-  rounded-md flex hover:scale-105 transition-transform duration-300">
           <div className="absolute rounded-md bg-black w-full h-full">
             <img src={bgimg} className="w-full h-full rounded-md" />
           </div>
