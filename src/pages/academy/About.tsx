@@ -119,10 +119,10 @@ function About() {
         </div>
       </div>
       <div className="flex flex-col w-full md:flex-row gap-4 ">
-        <FeatureCard doc={doc} title="Something" content="something" />
-        <FeatureCard doc={person} title="Something" content="something" />
-        <FeatureCard doc={scope} title="Something" content="something" />
-        <FeatureCard doc={trophy} title="Something" content="something" />
+        <FeatureCard doc={doc} title={<>Managing <br/> Courses</>} content="something" />
+        <FeatureCard doc={person} title={<>Messaging & <br/>Notifications</>} content="something" />
+        <FeatureCard doc={scope} title={<>Course<br/>Calendar</>} content="something" />
+        <FeatureCard doc={trophy} title={<>Course <br/>Management</>} content="something" />
       </div>
     </main>
   );
