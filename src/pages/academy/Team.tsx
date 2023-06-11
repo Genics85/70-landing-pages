@@ -40,7 +40,7 @@ function Team() {
         </div>
         <div className="flex flex-col gap-4 w-full items-center">
             <p className="text-textGrey">FAQ</p>
-            <h3 className="font-bold text-4xl text-center">Frequently Asked <br/> Questions</h3>
+            <h3 className="font-bold text-4xl text-center mb-8">Frequently Asked <br/> Questions</h3>
             <Accordion/>
         </div>
     </main>

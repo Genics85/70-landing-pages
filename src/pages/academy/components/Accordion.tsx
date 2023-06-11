@@ -23,7 +23,7 @@ const data = [
       "Culpa culpa enim tempor voluptate occaecat Lorem consectetur est consectetur. Lorem veniam enim dolor sit consequat nisi magna commodo duis excepteur id proident nisi. Adipisicing laboris sunt laborum ullamco sit eiusmod sint id tempor enim voluptate. Ad nisi deserunt cupidatat do sit.",
   },
   {
-    question: "I'm I going to get employed after this?",
+    question: "Am I going to get employed after this?",
     answer:
       "Minim amet aliqua sint dolore laboris eiusmod labore. Do ullamco sint pariatur occaecat excepteur ipsum pariatur culpa. Aliquip velit labore in voluptate ullamco aute excepteur sunt ipsum labore veniam aute excepteur laborum.",
   },
@@ -45,7 +45,7 @@ function Accordion() {
     <div className="flex flex-col w-full md:w-1/2 rounded-md gap-1 p-6 bg-white">
       {data.map((data, i) => (
         <div
-          className="w-full flex flex-col gap-3 mb-4 hover:scale-105 transition-all duration-300"
+          className="w-full flex flex-col gap-3 mb-4 hover:cursor-pointer"
           onClick={() => handleSelect(i)}
         >
           <div className="flex flex-row justify-between ">
@@ -58,7 +58,7 @@ function Accordion() {
             </div>
           </div>
           <p
-            className={`${
+            className={`transition-all duration-500 ${
               selected == i ? "" : "max-h-0 overflow-hidden"
             } `}
           >
