@@ -3,6 +3,7 @@ import Categories from './Categories'
 import Explore from './Explore'
 import Navigation from './Navigation'
 import Services from './Services'
+import Team from './Team'
 import Welcome from './Welcome'
 
 function Academy() {
@@ -14,6 +15,7 @@ function Academy() {
     <Explore/>
     <About/>
     <Services/>
+    <Team/>
     </>
   )
 }

@@ -2,16 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-    padding:0;
-    margin:0;
+@layer utilities {
+  @variants responsive {
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .no-scrollbar {
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
+    }
+  }
 }
-:root{
-    --academyBg:#eaf3ff;
-    --primary-color: #FF0000;
-    color: #323232;
+
+* {
+  padding: 0;
+  margin: 0;
 }
-.cat-gradient-bg{
-    height: 200px;
-    background-image: linear-gradient(to bottom, pink 0% , pink 50%,red 50%,red 100);
+:root {
+  --academyBg: #eaf3ff;
+  --primary-color: #ff0000;
+  color: #323232;
 }
