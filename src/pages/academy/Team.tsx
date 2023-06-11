@@ -5,6 +5,7 @@ import teacher3 from "../../assets/academy/images/teacher3.png"
 import teacher4 from "../../assets/academy/images/teacher4.png"
 import TeacherCard from "./components/TeacherCard";
 import {useRef} from "react"
+import Accordion from "./components/Accordion";
 
 function Team() {
     const containerRef = useRef<HTMLDivElement>(null);
@@ -37,9 +38,10 @@ function Team() {
                 <div onClick={scrollRight} className="w-8 h-8 rounded-full shadow border-2 border-academyBg hover:cursor-pointer"><InlineIcon className="w-full h-full text-academyPrimary" icon="ic:round-greater-than"/></div>
             </div>
         </div>
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 w-full items-center">
             <p className="text-textGrey">FAQ</p>
             <h3 className="font-bold text-4xl text-center">Frequently Asked <br/> Questions</h3>
+            <Accordion/>
         </div>
     </main>
   );
