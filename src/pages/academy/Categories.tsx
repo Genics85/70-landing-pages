@@ -11,10 +11,10 @@ function Categories() {
         <h3 className="font-bold text-4xl">Categories</h3>
         <p className="text-textGrey">Eu sint amet enim eiusmod ipsum commodo <br/> non pariatur excepteur tempor exercitation fugiat.</p>
         <div className='flex gap-x-5 overflow-x-auto w-full justify-center'>
-            <CategoryCard name="Math" bgcolor="#e3f0ff" icon={math}/>
-            <CategoryCard name="Physics" bgcolor="rgb(255,242,222)" icon={physics}/>
-            <CategoryCard name="Chemistry" bgcolor="rgb(236,255,215)" icon={chemistry}/>
-            <CategoryCard name="Informatics" bgcolor="#ffe2e5" icon={informatics}/>
+            <CategoryCard name="Math" bgcolor="bg-academyBg" icon={math}/>
+            <CategoryCard name="Physics" bgcolor="bg-red-100" icon={physics}/>
+            <CategoryCard name="Chemistry" bgcolor="bg-green-100" icon={chemistry}/>
+            <CategoryCard name="Informatics" bgcolor="bg-pink-100" icon={informatics}/>
         </div>
         <button className="px-3 py-1 text-sm rounded-md border-2 border-academyPrimary text-academyPrimary hover:bg-academyPrimary hover:text-white">
           EXPLORE ALL
