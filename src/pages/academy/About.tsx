@@ -8,7 +8,7 @@ import FeatureCard from "./components/FeatureCard";
 
 function About() {
   return (
-    <main className="p-5 md:p-20 bg-academyBg gap-y-12 md:gap-y-20 min-h-full flex flex-col justify-start items-start">
+    <main className="p-4 md:p-20 bg-academyBg gap-y-12 md:gap-y-20 min-h-full flex flex-col justify-start items-start">
       <div className="flex flex-col items-center gap-y-8 md:flex-row justify-between">
         <div className="rounded-md  md:w-2/5">
           <img src={stats} className="w-full" alt="" />

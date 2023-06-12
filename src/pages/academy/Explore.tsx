@@ -4,7 +4,7 @@ import ExploreCard from "./components/ExploreCard";
 
 function Explore() {
   return (
-    <main className="p-5 md:p-20 bg-white gap-y-7 min-h-full flex flex-col justify-start items-start">
+    <main className="p-4 md:p-20 bg-white gap-y-7 min-h-full flex flex-col justify-start items-start">
       <p className="text-1xl text-textGrey">COURSES</p>
       <h3 className="font-bold text-4xl">
         Explore Our <br /> Courses

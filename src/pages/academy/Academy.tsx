@@ -6,6 +6,7 @@ import Navigation from './Navigation'
 import Services from './Services'
 import Team from './Team'
 import Welcome from './Welcome'
+import Footer from './components/Footer'
 
 function Academy() {
   return (
@@ -18,6 +19,7 @@ function Academy() {
     <Services/>
     <Team/>
     <Articles/>
+    <Footer/>
     </>
   )
 }

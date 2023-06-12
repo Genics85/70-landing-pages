@@ -1,5 +1,4 @@
 import explorphysics from "../../../assets/academy/images/explorecard.png";
-import avatar from "../../../assets/academy/images/avarta.png";
 
 function ArticleCard() {
   return (

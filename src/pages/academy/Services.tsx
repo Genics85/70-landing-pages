@@ -10,7 +10,7 @@ import EventCard from "./components/EventCard";
 
 function Services() {
   return (
-    <main className="p-5 md:p-20 bg-white gap-y-12 md:gap-y-20 min-h-full flex flex-col justify-start items-start">
+    <main className="p-4 relative md:p-20 bg-white gap-y-12 md:gap-y-20 min-h-full flex flex-col justify-start items-start">
       <div className="flex flex-col-reverse items-center gap-y-8 md:flex-row-reverse justify-between">
         <div className="flex flex-col items-start gap-4 md:w-1/2">
           <p className="text-1xl text-textGrey">SERVICE</p>
@@ -57,6 +57,7 @@ function Services() {
           ALL SERVICE
         </div>
       </div>
+
       <div className="w-full flex flex-col md:flex-row items-start md:items-center gap-4 justify-between md:justify-between shadow bg-academyPrimary rounded-md p-10 hover:scale-105 transition-transform duration-300">
         <div>
           <h3 className="text-4xl font-bold text-white">Find Your Course</h3>
@@ -69,6 +70,7 @@ function Services() {
           GET STARTED
         </button>
       </div>
+
       <div className="flex flex-col w-full items-center gap-6 justify-center">
         <p className="text-textGrey">EVENTS</p>
         <h4 className="text-4xl font-bold text-center">
