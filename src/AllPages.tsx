@@ -1,5 +1,6 @@
 import PagesCard from "./assets/PagesCard";
 import academy from "./assets/images/academy.png";
+import {Route,Routes} from "react-router-dom"
 
 function AllPages() {
   return (

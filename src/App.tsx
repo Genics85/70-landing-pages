@@ -1,13 +1,12 @@
-import AllPages from "./AllPages"
-import Academy from "./pages/academy/Academy"
+
+import Routing from "./Routing";
 
 function App() {
-
   return (
-    <div className="App">
-      <AllPages/>
-    </div>
-  )
+      <div className="App">
+        <Routing/>
+      </div>
+  );
 }
 
-export default App
+export default App;
