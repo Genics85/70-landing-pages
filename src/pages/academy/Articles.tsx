@@ -6,8 +6,8 @@ import stores from "../../assets/academy/images/appstores.png";
 function Articles() {
   return (
     <main className="p-4 pb-0 md:p-20 bg-white gap-y-12 md:gap-y-20 min-h-full flex flex-col justify-start items-start">
-      <div className="flex flex-col gap-4">
-        <p className="text-textGrey">OUR BLOG</p>
+      <div id="blog" className="flex flex-col gap-4">
+        <p  className="text-textGrey">OUR BLOG</p>
         <h4 className="text-4xl font-bold">Latest Articles</h4>
       </div>
       <div className="w-full grid grid-cols-1 sm:grid-cols-2  md:grid-cols-3 lg:grid-cols-4 gap-4">

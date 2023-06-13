@@ -10,7 +10,7 @@ import EventCard from "./components/EventCard";
 
 function Services() {
   return (
-    <main className="p-4 relative md:p-20 bg-white gap-y-12 md:gap-y-20 min-h-full flex flex-col justify-start items-start">
+    <main id="services" className="p-4 relative md:p-20 bg-white gap-y-12 md:gap-y-20 min-h-full flex flex-col justify-start items-start">
       <div className="flex flex-col-reverse items-center gap-y-8 md:flex-row-reverse justify-between">
         <div className="flex flex-col items-start gap-4 md:w-1/2">
           <p className="text-1xl text-textGrey">SERVICE</p>

@@ -9,29 +9,29 @@ function Navigation() {
         <h3 className="text-3xl font-bold">ACA</h3>
         <ul className="gap-x-8 hidden md:flex">
           <li>
-            <a className="hover:cursor-pointer hover:text-academyPrimary">
+            <a href="#courses" className="hover:cursor-pointer hover:text-academyPrimary">
               {" "}
               Courses
             </a>
           </li>
           <li>
-            <a className="hover:cursor-pointer hover:text-academyPrimary">
+            <a href="#about" className="hover:cursor-pointer hover:text-academyPrimary">
               {" "}
               About
             </a>
           </li>
           <li>
-            <a className="hover:cursor-pointer hover:text-academyPrimary">
+            <a href="#services" className="hover:cursor-pointer hover:text-academyPrimary">
               Services{" "}
             </a>
           </li>
           <li>
-            <a className="hover:cursor-pointer hover:text-academyPrimary">
+            <a href="#events" className="hover:cursor-pointer hover:text-academyPrimary">
               Events{" "}
             </a>
           </li>
           <li>
-            <a className="hover:cursor-pointer hover:text-academyPrimary">
+            <a href="#blog" className="hover:cursor-pointer hover:text-academyPrimary">
               {" "}
               Blog
             </a>
@@ -56,29 +56,29 @@ function Navigation() {
       >
         <ul className="flex flex-col space-y-5 p-3 ">
           <li>
-            <a className="hover:cursor-pointer hover:text-academyPrimary">
+            <a href="#courses" className="hover:cursor-pointer hover:text-academyPrimary">
               {" "}
               Courses
             </a>
           </li>
           <li>
-            <a className="hover:cursor-pointer hover:text-academyPrimary">
+            <a href="#about" className="hover:cursor-pointer hover:text-academyPrimary">
               {" "}
               About
             </a>
           </li>
           <li>
-            <a className="hover:cursor-pointer hover:text-academyPrimary">
+            <a href="#services" className="hover:cursor-pointer hover:text-academyPrimary">
               Services{" "}
             </a>
           </li>
           <li>
-            <a className="hover:cursor-pointer hover:text-academyPrimary">
+            <a href="#events" className="hover:cursor-pointer hover:text-academyPrimary">
               Events{" "}
             </a>
           </li>
           <li>
-            <a className="hover:cursor-pointer hover:text-academyPrimary">
+            <a href="#blog" className="hover:cursor-pointer hover:text-academyPrimary">
               {" "}
               Blog
             </a>

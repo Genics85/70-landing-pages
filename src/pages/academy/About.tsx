@@ -13,7 +13,7 @@ function About() {
         <div className="rounded-md  md:w-2/5">
           <img src={stats} className="w-full" alt="" />
         </div>
-        <div className="flex flex-col items-start gap-4 md:w-1/2">
+        <div id="about" className="flex flex-col items-start gap-4 md:w-1/2">
           <p className="text-1xl text-textGrey">About</p>
           <h3 className="text-4xl font-bold ">
             Success Can

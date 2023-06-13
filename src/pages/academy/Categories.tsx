@@ -7,7 +7,7 @@ import informatics from "../../assets/academy/images/informatics.png";
 function Categories() {
   return (
     <main className="p-4 md:p-20 bg-white gap-y-7 min-h-full flex flex-col items-center">
-        <p className="text-textGrey text-sm">EXPLORE NOW</p>
+        <p  className="text-textGrey text-sm">EXPLORE NOW</p>
         <h3 className="font-bold text-4xl">Categories</h3>
         <p className="text-textGrey">Eu sint amet enim eiusmod ipsum commodo <br/> non pariatur excepteur tempor exercitation fugiat.</p>
         <div className='flex gap-x-5 overflow-x-auto w-full justify-center'>

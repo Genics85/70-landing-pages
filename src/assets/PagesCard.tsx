@@ -1,12 +1,14 @@
+import {Link} from "react-router-dom"
 
 type cardProps = {
     img:string,
     name:string,
+    to:string,
 }
 
-function PagesCard({img,name}:cardProps) {
+function PagesCard({img,name,to}:cardProps) {
   return (
-    <div className=''>
+    <Link to={to} className=''>
         <div className="group relative h-fit rounded-md shadow-lg shadow-[#00a6fb] bg-white hover:cursor-pointer">
           <img src={img} alt="" />
           <div className="absolute inset-0 opacity-80 hover:opacity-0 z-10 w-full h-full bg-black rounded-md"></div>
@@ -14,7 +16,7 @@ function PagesCard({img,name}:cardProps) {
             {name}
           </div>
         </div>
-    </div>
+    </Link>
   )
 }
 
