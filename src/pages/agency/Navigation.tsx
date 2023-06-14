@@ -4,7 +4,7 @@ import { useState } from "react";
 function Navigation() {
   const [mobileNavOpened, setMobielNavOpened] = useState(false);
   return (
-    <div className="">
+    <div className=" sticky top-0">
       <nav className="px-5 md:px-20 lg:px-24 relative p-3 bg-agencySecondary h-14 flex justify-between items-center">
         <h3 className="text-3xl font-bold">AGNC</h3>
         <ul className="gap-x-8 hidden md:flex">
