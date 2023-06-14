@@ -1,6 +1,7 @@
 import Features from './Features'
 import Home from './Home'
 import Navigation from './Navigation'
+import Portfolio from './Portfolio'
 import Service from './Service'
 
 function Agency() {
@@ -10,6 +11,7 @@ function Agency() {
         <Home/>
         <Service/>
         <Features/>
+        <Portfolio/>
     </div>
   )
 }
