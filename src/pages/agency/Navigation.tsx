@@ -57,28 +57,34 @@ function Navigation() {
         <ul className="flex flex-col space-y-5 p-3 ">
           <li>
             <a href="#courses" className="hover:cursor-pointer hover:text-agencyAccent">
+
               {" "}
               Courses
             </a>
           </li>
           <li>
             <a href="#about" className="hover:cursor-pointer hover:text-agencyAccent">
+
               {" "}
               About
             </a>
           </li>
           <li>
             <a href="#services" className="hover:cursor-pointer hover:text-agencyAccent">
+
               Services{" "}
             </a>
           </li>
           <li>
             <a href="#events" className="hover:cursor-pointer hover:text-agencyAccent">
+
               Events{" "}
             </a>
           </li>
           <li>
+
             <a href="#blog" className="hover:cursor-pointer hover:text-agencyAccent">
+
               {" "}
               Blog
             </a>

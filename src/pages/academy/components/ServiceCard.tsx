@@ -14,7 +14,7 @@ function ServiceCard({doc,title,content,color}:cardInfo) {
         <img src={doc} className="w-1/2 h-1/2 " alt="" />
     </div>
     <h4 className="text-xl font-bold">{title?title:<>Managing<br/> Courses</> }</h4>
-    <p className="text-textGrey">Minim culp somethign more so that it can go down a minim id ea another se cupidatat.</p>
+    <p className="text-textGrey">{content}</p>
     <p className="font-bold text-textGrey hover:cursor-pointer">Learn More</p>
 </div>
   )
