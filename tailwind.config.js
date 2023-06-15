@@ -5,6 +5,9 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
+    fontFamily: {
+      serif: ['Inria Serif', 'serif'],
+    },
     screens: {
       sm: '576px',
       md: '768px',

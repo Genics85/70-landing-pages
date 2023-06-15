@@ -10,7 +10,7 @@ function Portfolio() {
   return (
     <div className="p-5 flex flex-col items-center gap-12 md:p-20 lg:p-24 min-h-screen bg-white">
       <div className="flex  flex-col w-full gap-4 md:flex-row md:justify-between">
-        <h3 className="md:w-1/2 text-3xl md:text-4xl font-bold">Portfolio</h3>
+        <h3 className="md:w-1/2 text-4xl md:text-5xl font-bold font-serif">Portfolio</h3>
         <p className=""> sunt id officia cillum voluptate est ut consectetur tempor
         exercitation do aute mollit laboris veniam another for aesthetics.</p>
       </div>

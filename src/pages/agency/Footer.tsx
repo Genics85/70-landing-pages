@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className="p-8 md:p-20 bg-white gap-y-12 md:gap-y-20 min-h-full flex flex-col justify-start items-start">
       <div className="flex flex-col w-full md:flex-row gap-4 justify-between items-center md:items-start">
-        <h4 className="font-bold text-4xl">AGNC</h4>
+        <h4 className="font-bold text-4xl font-serif">AGNC</h4>
         <div className="flex flex-col">
           <p className="text-agencyAccent mb-3 font-bold">FEATURES</p>
           <p>Design</p>

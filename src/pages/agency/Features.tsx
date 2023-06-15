@@ -13,7 +13,7 @@ function Features() {
       <div className="absolute -mr-36 md:-mr-0 right-0 top-0 flex items-end justify-end overflow-clip">
         <img src={featureOval} className="w-3/5" alt="" />
       </div>
-      <div className="text-3xl md:text-4xl font-bold">Features</div>
+      <div className="text-4xl md:text-5xl font-serif font-bold">Features</div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-20">
         <FeatureGridElement
           img={emailMarketing}

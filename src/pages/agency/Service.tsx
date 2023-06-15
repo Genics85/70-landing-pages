@@ -21,7 +21,7 @@ function Service() {
         <img src={google} alt="" />
       </div>
       <div className="flex flex-col md:flex-row md:justify-between gap-4">
-        <h4 className="text-3xl md:text-4xl font-bold md:w-1/2">
+        <h4 className="text-4xl md:text-5xl md:w-1/2 font-serif font-semibold">
           Our Best
           <br />
           Services
@@ -57,7 +57,7 @@ function Service() {
           <img src={service} className="md:w-4/5" />
         </div>
         <div className="flex flex-col gap-4 items-start md:w-1/2">
-          <h4 className="font-bold text-3xl md:text-4xl">
+          <h4 className="font-bold text-4xl md:text-5xl font-serif">
             We had left the <br />
             ground
           </h4>

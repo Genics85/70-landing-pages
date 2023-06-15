@@ -10,7 +10,7 @@ function Team() {
   return (
     <div className="p-5 flex flex-col items-center gap-12 md:p-20 lg:p-24 min-h-screen bg-white">
       <div className="flex flex-col gap-4 md:flex-row md:justify-between">
-        <h3 className="text-3xl md:text-4xl font-bold md:w-1/2">Our Team</h3>
+        <h3 className="text-4xl md:text-5xl font-bold md:w-1/2 font-serif">Our Team</h3>
         <p className="md:w-3/5">
           Apparently we had reached a great height in the atmosphere, for the
           sky was a dead black, and the stars had ceased to twinkle.
@@ -40,7 +40,7 @@ function Team() {
         />
       </div>
       <div className="flex flex-col gap-4 md:flex-row md:justify-between">
-        <h3 className="text-3xl md:text-4xl font-bold md:w-1/2">Our Blog</h3>
+        <h3 className="text-4xl md:text-5xl font-bold md:w-1/2 font-serif">Our Blog</h3>
         <p className="md:w-3/5">
           Apparently we had reached a great height in the atmosphere, for the
           sky was a dead black, and the stars had ceased to twinkle.

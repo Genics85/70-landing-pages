@@ -22,7 +22,7 @@ function Testimonials() {
         <img src={oval2} alt="" />
       </div>
       <div className="flex flex-col items-center gap-4">
-        <h4 className="text-3xl md:text-4xl font-bold text-white">
+        <h4 className="text-4xl md:text-5xl font-bold text-white font-serif">
           Testimonials
         </h4>
         <p className="text-textGrey md:w-8/12 text-center">
@@ -42,7 +42,7 @@ function Testimonials() {
         roots. The roots were revolving, like the spokes of a rimless wheel."
       </p>
       <div className="flex flex-col gap-4 items-center">
-        <h3 className="text-2xl font-bold text-white">Alicia Puma</h3>
+        <h3 className="text-2xl font-bold text-white font-serif">Alicia Puma</h3>
         <p className="text-textGrey">Digital Director,Microsoft</p>
       </div>
       <div className="flex gap-4">
