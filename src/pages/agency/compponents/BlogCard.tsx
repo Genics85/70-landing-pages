@@ -1,4 +1,3 @@
-import React from 'react'
 
 type cardProp = {
     img:string,

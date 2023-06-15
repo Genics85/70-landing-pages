@@ -1,5 +1,4 @@
 import { InlineIcon } from "@iconify/react/dist/iconify.js";
-import React from "react";
 
 type checkProps ={
     subject:string
