@@ -16,7 +16,7 @@ function Team() {
           sky was a dead black, and the stars had ceased to twinkle.
         </p>
       </div>
-      <div className="flex flex-col md:flex-row items-center justify-center w-full gap-4">
+      <div className="flex flex-col md:flex-row items-center justify-center w-full gap-4 md:mb-36">
         <TeamCard
           img={team1}
           name="Hugo Saavedra"
@@ -46,7 +46,7 @@ function Team() {
           sky was a dead black, and the stars had ceased to twinkle.
         </p>
       </div>
-      <div className="flex flex-col md:flex-row items-center justify-center w-full gap-4">
+      <div className="flex flex-col md:flex-row items-center justify-center w-full gap-4 mb-10">
         <BlogCard
           subject="Web Design"
           date="Feb 20,2020"
