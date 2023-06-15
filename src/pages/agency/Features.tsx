@@ -9,8 +9,8 @@ import FeatureGridElement from "./compponents/FeatureGridElement";
 
 function Features() {
   return (
-    <div className="relative p-5 flex flex-col gap-12 md:p-20 lg:p-24 min-h-screen bg-gradient-to-t from-agencyPrimary to-agencySecondary">
-      <div className="absolute right-0 top-0 flex items-end justify-end">
+    <div className="relative -z-10 p-5 flex flex-col gap-12 md:p-20 lg:p-24 min-h-screen bg-gradient-to-t from-agencyPrimary to-agencySecondary overflow-hidden">
+      <div className="absolute -mr-36 md:-mr-0 right-0 top-0 flex items-end justify-end overflow-clip">
         <img src={featureOval} className="w-3/5" alt="" />
       </div>
       <div className="text-3xl md:text-4xl font-bold">Features</div>

@@ -1,7 +1,7 @@
 import home from "../../assets/agency/home.png"
 function Home() {
   return (
-    <div className='p-5 flex flex-col md:flex-row gap-4 md:justify-between items-center md:p-20 lg:p-24 h-[calc(100vh-3.5rem)] bg-gradient-to-t from-agencyPrimary to-agencySecondary'>
+    <div className='p-5 flex flex-col md:flex-row gap-4 md:justify-between items-center md:p-20 lg:p-24 h-[calc(100vh-3.5rem)] bg-gradient-to-t from-agencyPrimary to-agencySecondary overflow-hidden'>
         <div className="flex w-full flex-col gap-4 items-start md:w-2/3">
             <p className="text-agencyAccent font-bold">CREATIVE AGENCY</p>
             <h4 className="text-6xl">

@@ -6,14 +6,14 @@ import google from "../../assets/agency/google.png";
 import marketing from "../../assets/agency/marketing.png";
 import design from "../../assets/agency/design.png";
 import development from "../../assets/agency/development.png";
-import ServiceCard from "./compponents/serviceCard";
+import ServiceCard from "./compponents/ServiceCard"
 import service from "../../assets/agency/service.png";
 import ServiceChecks from "./compponents/ServiceChecks";
 
 function Service() {
   return (
     <div className="p-5 pt-12 flex flex-col gap-28 items-center md:p-20 lg:p-24 min-h-screen bg-white">
-      <div className="grid w-full grid-cols-1 md:grid-cols-5 gap-12">
+      <div className="grid place-items-center w-full grid-cols-1 md:grid-cols-5 gap-12">
         <img src={atlasian} alt="" />
         <img src={slack} alt="" />
         <img src={dropbox} alt="" />
