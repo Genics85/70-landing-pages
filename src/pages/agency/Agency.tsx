@@ -1,3 +1,4 @@
+import Contact from './Contact'
 import Features from './Features'
 import Home from './Home'
 import Navigation from './Navigation'
@@ -16,6 +17,7 @@ function Agency() {
         <Portfolio/>
         <Testimonials/>
         <Team/>
+        <Contact/>
     </div>
   )
 }
