@@ -1,6 +1,5 @@
 import oval1 from "../../assets/agency/testimonialOvalS.png";
 import oval2 from "../../assets/agency/testimonialOval.png";
-import oval3 from "../../assets/agency/oval2mobile.png";
 import avartar1 from "../../assets/agency/avartar1.png";
 import avartar2 from "../../assets/agency/avartar2.png";
 import avartar3 from "../../assets/agency/avartar3.png";
