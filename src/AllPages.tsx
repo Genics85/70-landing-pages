@@ -1,5 +1,6 @@
 import PagesCard from "./assets/PagesCard";
 import academy from "./assets/images/academy.png";
+import agency from "./assets/images/agency.png";
 
 function AllPages() {
   return (
@@ -9,6 +10,7 @@ function AllPages() {
       </h4>
       <div className=" grid  grid-cols-2 justify-center items-center md:grid-cols-4 gap-4 ">
         <PagesCard img ={academy} name="Academy" to={"/academy"}/>
+        <PagesCard img ={agency} name="Agency" to={"/agency"}/>
       </div>
     </div>
   );
