@@ -5,6 +5,9 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
+    fontFamily: {
+      serif: ['Inria Serif', 'serif'],
+    },
     screens: {
       sm: '576px',
       md: '768px',
@@ -15,6 +18,9 @@ export default {
       colors:{
         academyBg:"#eaf3ff",
         academyPrimary:"#4a90e2",
+        agencyAccent:"#fa7e4a",
+        agencySecondary:"#ffece5",
+        agencyPrimary:"#e9ebfb",
         textGrey:"#a6abb2",
       }
     },
