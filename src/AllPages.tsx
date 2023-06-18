@@ -11,6 +11,7 @@ function AllPages() {
       <div className=" grid  grid-cols-2 justify-center items-center md:grid-cols-4 gap-4 ">
         <PagesCard img ={academy} name="Academy" to={"/academy"}/>
         <PagesCard img ={agency} name="Agency" to={"/agency"}/>
+        <PagesCard img ={agency} name="App" to={"/app"}/>
       </div>
     </div>
   );
