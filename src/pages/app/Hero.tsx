@@ -4,7 +4,7 @@ import phone from "../../assets/app/phone.png"
 
 function Hero() {
   return (
-    <section className="relative flex items-center  bg-transparent rounded-3xl max-h-screen overflow m-5">
+    <section className="relative flex items-center  bg-transparent rounded-3xl max-h-screen overflow m-5 mt-10">
         <div className="absolute -z-10">
         <img src={herobg} className=" h-full" alt="" />
         </div>
