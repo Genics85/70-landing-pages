@@ -1,9 +1,13 @@
-import Navigation from "./Navigation"
+import Hero from "./Hero";
+import Navigation from "./Navigation";
 
 function App() {
   return (
-   <Navigation/>
-  )
+    <div>
+      <Navigation />
+      <Hero />
+    </div>
+  );
 }
 
-export default App
+export default App;
