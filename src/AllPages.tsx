@@ -1,6 +1,7 @@
 import PagesCard from "./assets/PagesCard";
 import academy from "./assets/images/academy.png";
 import agency from "./assets/images/agency.png";
+import manage from "./assets/images/manage(1).png";
 
 function AllPages() {
   return (
@@ -11,7 +12,7 @@ function AllPages() {
       <div className=" grid  grid-cols-2 justify-center items-center md:grid-cols-4 gap-4 ">
         <PagesCard img ={academy} name="Academy" to={"/academy"}/>
         <PagesCard img ={agency} name="Agency" to={"/agency"}/>
-        <PagesCard img ={agency} name="App" to={"/app"}/>
+        <PagesCard img ={manage} name="Manage" to={"https://tailwind-manage-website.vercel.app/"}/>
       </div>
     </div>
   );
