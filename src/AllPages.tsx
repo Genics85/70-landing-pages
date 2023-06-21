@@ -2,6 +2,7 @@ import PagesCard from "./assets/PagesCard";
 import academy from "./assets/images/academy.png";
 import agency from "./assets/images/agency.png";
 import manage from "./assets/images/manage(1).png";
+import foundation from "./assets/images/foundation.png";
 
 function AllPages() {
   return (
@@ -13,6 +14,7 @@ function AllPages() {
         <PagesCard img ={academy} name="Academy" to={"https://academy-landing-page-one.vercel.app/"}/>
         <PagesCard img ={agency} name="Agency" to={"https://agency-landing-page-delta.vercel.app/"}/>
         <PagesCard img ={manage} name="Manage" to={"https://tailwind-manage-website.vercel.app/"}/>
+        <PagesCard img ={foundation} name="Foundation" to={"https://oliver-foundation.web.app/"}/>
       </div>
     </div>
   );
