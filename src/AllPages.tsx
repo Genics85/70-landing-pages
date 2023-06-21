@@ -14,7 +14,7 @@ function AllPages() {
         <PagesCard img ={academy} name="Academy" to={"https://academy-landing-page-one.vercel.app/"}/>
         <PagesCard img ={agency} name="Agency" to={"https://agency-landing-page-delta.vercel.app/"}/>
         <PagesCard img ={manage} name="Manage" to={"https://tailwind-manage-website.vercel.app/"}/>
-        <PagesCard img ={foundation} name="Foundation" to={"https://oliver-foundation.web.app/"}/>
+        <PagesCard img ={foundation} name="Charity" to={"https://oliver-foundation.web.app/"}/>
       </div>
     </div>
   );
